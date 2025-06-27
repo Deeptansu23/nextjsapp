@@ -8,6 +8,7 @@ const Homepage = () => {
     const printConsole = async () => {
         console.log('This is a message from the Homepage component');
         console.log(process.env.NEXT_PUBLIC_DATA);
+        console.lg("hello")
 
     }
     return (
